@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<title>Patient login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.div{
+   color:blue;
+  }
+
+</style>
+<body>
+
+
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+
+  <br>
+  <br>
+  <br>
+  <a><u><b><center>Hospital details</center></b></u></a>
+  <a href="Patient Registration.html" class="w3-bar-item w3-button">Patient Registration</a>
+  <a href="doctorconsultation.html" class="w3-bar-item w3-button">Doctor Consultations</a>
+  <a href="medicines.html" class="w3-bar-item w3-button">Medicines</a>
+  <a href="Aboutus.html" class="w3-bar-item w3-button">Infra Structure and Awards</a>
+ 
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+
+
+<button><a href="main.html"placeholder="right">Logout</a></button>
+
+
+</div>
+
+
+<div class="w3-teal"><center>
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">Menu☰</button></center>
+  <div class="w3-container">
+    <h1><center><u><b>Hospital Details</b></u></center></h1>
+  </div>
+</div>
+
+<img src="ste1.jpeg" alt="Car" style="width:100%">
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     
+</body>
+</html> 
